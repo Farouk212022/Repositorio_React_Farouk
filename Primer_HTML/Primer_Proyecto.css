@@ -1,0 +1,96 @@
+#carta-borde{
+    height: 500px;
+    width: 300px;
+    border: 18px solid #4B5563;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#imagen-carta{
+    height: 50%;
+    background-image: url(./images/Squirtle-image.png);
+    background-size:cover;
+    padding: 18px;
+}
+
+#numero-carta{
+    height: 30px;
+    width: 30px;
+    font-size: 100%;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-weight: bolder;
+    padding: 10px;
+    color: white;
+    background-color: #374151;
+    border-radius: 50%;
+    display: flex;
+    float: right;
+}
+
+#descripcion-carta{
+    flex:1;
+    background-color:#E5E7EB;
+    padding: 7px 18px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#titulo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    display: inline-flex;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+#titulo p{
+    padding: 7px 10px;
+    color: white;
+    background-color: #4B5563;
+    border-radius: 50px;
+}
+
+#titulo h1{
+    margin-right: 10px;
+}
+
+#descripcion-personaje{
+    display: inline;
+    width: fit-content;
+    color: grey;
+    font-family: sans-serif;
+    padding-bottom: 15px;
+}
+
+#estadisticas{
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.cuadro-estadistica{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-right: 2px;
+    padding: 5px 10px;
+    background-color: #F3F4F6;
+    border-radius: 10px;
+    font-family: sans-serif;
+    margin-bottom: 5px;
+}
+
+.valor{
+    font-weight: bolder;
+    margin-left: 5px;
+}
+
+.imagen-estadistica{
+    width: auto;
+    height: 1.1em;
+    object-fit: contain;
+}
+
